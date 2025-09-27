@@ -1,0 +1,21 @@
+name: flappy_clone
+description: A simple Flappy Bird-like game made with Flame.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.0
+  flutter_svg: ^1.1.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bird.png
+    - assets/pipe.png
+    - assets/bg.png
+    - assets/ground.png
+    - assets/cloud1.png
+    - assets/cloud2.png
